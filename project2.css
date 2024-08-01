@@ -1,93 +1,95 @@
 *{
-    padding: 0;
     margin:0;
+    padding:0;
     box-sizing: border-box;
 }
 html,body{
     height: 100%;
     width: 100%;
 }
+
 #main{
     height: 100%;
     width: 100%;
-    /* background-color: black; */
+    /* background-color: red; */
     display: flex;
-    justify-content: space-between;
-    padding: 40px;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+    padding: 0px 90px;
+    padding-top: 150px;
 }
+
 #left{
     height: 100%;
-    width: 40%;
+    width: 48%;
     /* background-color: red; */
-    margin-left: 4vw;
-}
-#right{
-    height: 100%;
-    width: 40%;
-    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px;
 }
 
-#top{
-    /* background-color: yellow; */
-    height: 60%;
-    padding-top: 70px;
-}
-
-#top h1{
+#left h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 6vw;
+    font-size: 7.0vw;
     font-weight: 500;
 }
-
 #bottom-left{
-    /* background-color: rgb(190, 228, 38); */
     height: 40%;
-}
-#colors{
-    padding: 10px;
-    border: 3px solid black;
-    width:fit-content;
-    /* background-color: grey; */
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    border-radius: 50px;
+    width: 100%;
+    /* background-color: yellow; */
 }
 
-#colors h5{
+#colors{
+    width: fit-content;
+    padding: 10px 15px;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    border:2px solid black;
+    border-radius: 50px;
+    justify-content: space-between;
+}
+
+#colors h4{
+    font-size:1.5vw;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2vw;
-    font-weight: 600;
     margin-right: 10px;
+    font-weight: 500;
 }
 
 #color1{
     height: 20px;
     width: 20px;
-    background-color: red;
+    background-color: rgb(244, 231, 203);
     border-radius: 50%;
-    margin-right:4px;
-
+    margin-right: 2px;
 }
-
 #color2{
     height: 20px;
     width: 20px;
-    background-color: pink;
+    background-color: rgb(211, 255, 130);
     border-radius: 50%;
 }
 
-#bottom-left h1{
-    margin-top: 30px;
-    width: fit-content;
-    margin-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+#bottom-left h2{
     font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 #bottom-left p{
-    width: 80%;
-    line-height:30px;
-    font-weight: 600;
-    font-family: cursive;
+    font-size: 1.2vw;
+    width: 70%;
+    line-height: 28px;
+    font-weight: 520;
+    font-family:cursive;
+}
+
+#right{
+    height: 90%;
+    width: 35%;
+    background-color: blue;
 }
